@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(lightblue,lightgreen);
+}
+.app{
+  justify-content: center; 
+  display: flex;
+  align-items: center;
+}
+
+.cell{
+  padding-top: 8%;
+  width: 258px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 10px black;
+}
+
+.board{
+  width: calc(258px *4);
+  height: calc(128px * 4);
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+ .red{
+  background-color: red;
+ }
+
+ .green{
+  background-color: green;
+ }
+
+ .wheat{
+  background-color: white;
+ }
