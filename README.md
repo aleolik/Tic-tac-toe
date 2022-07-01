@@ -1,4 +1,4 @@
-to Launch : 
+to Launch install: 
 
 1)npm install @mui/icons-material;
 npm install @mui/material @emotion/react @emotion/styled;
